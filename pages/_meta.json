@@ -1,0 +1,11 @@
+{
+    "index": {
+        "title": "Home",
+        "display": "hidden",
+        "type": "page"
+    },
+    "number-system": {
+        "title": "Number System",
+        "type": "page"
+    }
+}
