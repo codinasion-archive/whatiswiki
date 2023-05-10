@@ -66,7 +66,7 @@ const config: DocsThemeConfig = {
   },
 
   // TOC
-  docsRepositoryBase: "https://github.com/codinasion/whatiswiki",
+  docsRepositoryBase: "https://github.com/codinasion/whatiswiki/blob/master",
 
   // SEO
   useNextSeoProps() {
@@ -192,7 +192,7 @@ const config: DocsThemeConfig = {
         {
           // Comment
           // Don't show comments on the homepage
-          asPath !== "/" && <Comment />
+          asPath !== "/" && <Comment key={asPath} />
         }
         {/* Scroll to top */}
         <ScrollToTop />

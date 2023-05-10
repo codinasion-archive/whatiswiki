@@ -4,8 +4,14 @@
         "display": "hidden",
         "type": "page"
     },
-    "number-system": {
-        "title": "Number System",
-        "type": "page"
+    "topics": {
+        "title": "Topics",
+        "type": "menu",
+        "items": {
+            "number-system": {
+                "title": "Number System",
+                "href": "/number-system"
+            }
+        }
     }
 }

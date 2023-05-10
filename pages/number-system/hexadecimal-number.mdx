@@ -1,0 +1,84 @@
+---
+description: >-
+  A hexadecimal number is a base-16 number system used in computer programming and other fields, which uses sixteen digits: 
+  0-9 and A-F. Each digit represents a value determined by its position within the number, and can be converted to other numeral 
+  systems using various algorithms. Hexadecimal numbers are widely used in computer memory addressing and cryptography.
+---
+
+# Hexadecimal Number
+
+A hexadecimal number is a **base-16** number expressed in the hexadecimal numeral system, which uses sixteen digits:
+**0**, **1**, **2**, **3**, **4**, **5**, **6**, **7**, **8**, **9**, **A**, **B**, **C**, **D**, **E**, and **F**.
+
+Each digit in a hexadecimal number represents a value, which is determined by its position within the number.
+The rightmost digit has a value of $16^0$ (1), the next digit to the left has a value of $16^1$ (16),
+then $16^2$ (256), $16^3$ (4096), and so on.
+
+The value of each digit in a hexadecimal number is multiplied by its weight, and the results are summed to obtain
+the decimal value of the number.
+
+## Example
+
+Let's take the hexadecimal number **2F8**, which has three digits.
+
+- The rightmost digit is 8, which has a value of
+
+  8 x $16^0$ = 8 x 1 = 8
+
+- The next digit to the left is F, which has a value of
+
+  15 x $16^1$ = 15 x 16 = 240
+
+- The leftmost digit is 2, which has a value of
+
+  2 x $16^2$ = 2 x 256 = 512.
+
+To obtain the decimal value of the number `2F8`, we add these values together:
+
+`8 + 240 + 512 = 760`
+
+## History
+
+The hexadecimal system was introduced in the mid-20th century as a convenient way to represent
+[binary numbers][binary_number_what_is_wiki].
+
+Since each hexadecimal digit represents four binary digits, it was easier to read and write large binary numbers in
+hexadecimal form.
+
+The system was widely adopted in computer programming, where it is used to represent `memory addresses`, `register values`,
+and other data types.
+
+## Applications
+
+Hexadecimal numbers are used in various fields such as computer programming, mathematics, and electronics.
+
+They are commonly used in computer memory addressing, as well as in the representation of color values in digital images.
+
+In addition, hexadecimal numbers are used in `cryptography` to represent encryption keys and other sensitive data.
+
+## Conversion
+
+Hexadecimal numbers can be converted to other numeral systems, such as binary, octal, and decimal,
+using various algorithms and methods.
+
+For example, to convert a hexadecimal number to binary, each hexadecimal digit is replaced by its four-bit binary equivalent.
+
+Similarly, to convert a hexadecimal number to decimal, each digit is multiplied by its weight and the results are summed.
+
+## Conclusion
+
+Hexadecimal numbers are a fundamental concept in computer programming and various other fields, and they are used to
+represent memory addresses, register values, and other data types. Understanding hexadecimal numbers and their
+properties is essential for computer science and programming, and it is a crucial component of numeracy in the modern world.
+
+## References
+
+- [Hexadecimal Number - Wikipedia][hexadecimal_number_wikipedia]
+
+---
+
+{/* Internal Links */}
+[binary_number_what_is_wiki]: ./number-system/binary-number "What is Binary Number"
+
+{/* External Links */}
+[hexadecimal_number_wikipedia]: https://en.wikipedia.org/wiki/Hexadecimal
