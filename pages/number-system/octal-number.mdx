@@ -1,0 +1,88 @@
+---
+description: >-
+  Octal number is a base-8 number system used in mathematics and computer programming, which uses eight digits: 
+  0, 1, 2, 3, 4, 5, 6, and 7. Each digit in an octal number represents a value, which is determined by its position 
+  within the number. The value of each digit in an octal number is multiplied by its weight, and the results are 
+  summed to obtain the decimal value of the number.
+---
+
+# Octal Number
+
+An octal number is a **base-8** number expressed in the octal numeral system, which uses eight digits: **0**, **1**, **2**,
+**3**, **4**, **5**, **6**, and **7**. Each digit in an octal number represents a value, which is determined by its position
+within the number. The rightmost digit has a value of $8^0$ (1), the next digit to the left has a value of $8^1$ (8),
+then $8^2$ (64), $8^3$ (512), and so on. The value of each digit in an octal number is multiplied by its weight, and
+the results are summed to obtain the decimal value of the number.
+
+## Example
+
+Let's take the octal number **345**, which has three digits.
+
+- The rightmost digit is 5, which has a value of
+
+  5 x $8^0$ = 5 x 1 = 5
+
+- The next digit to the left is 4, which has a value of
+
+  4 x $8^1$ = 4 x 8 = 32
+
+- The leftmost digit is 3, which has a value of
+
+  3 x $8^2$ = 3 x 64 = 192
+
+To obtain the decimal equivalent of the octal number **345**, we add these values together:
+
+`5 + 32 + 192 = 229`
+
+Therefore, the decimal equivalent of the octal number **345** is **229**.
+
+## History
+
+The octal system was first introduced in the mid-19th century by mathematician
+[James Joseph Sylvester][james_joseph_sylvester_wikipedia], who used it as ashorthand notation for binary numbers in
+machine language.
+
+The system was later adopted by computer scientists and programmers, who used octal notation as a
+convenient way to represent groups of three binary digits.
+
+## Applications
+
+Octal numbers are used in computer programming and digital electronics as a convenient way to represent
+[binary numbers][binary_number_what_is_wiki].
+
+Each octal digit represents a group of three binary digits, and octal notation can be used to represent large
+binary numbers in a compact and easy-to-read format.
+
+Octal notation is also used in some programming languages, such as C and Unix shell scripts, to represent
+file permissions and other system settings.
+
+## Conversion
+
+Octal numbers can be converted to other numeral systems, such as binary, decimal, and hexadecimal,
+using various algorithms and methods.
+
+For example, to convert an octal number to binary, each octal digit is replaced with its binary equivalent,
+and the results are concatenated to obtain the binary equivalent.
+
+Similarly, to convert an octal number to decimal, each octal digit is multiplied by its weight, and the results are
+summed to obtain the decimal equivalent.
+
+## Conclusion
+
+Octal numbers are a fundamental concept in computer programming and digital electronics, and they are used to
+represent binary numbers in a compact and convenient format. Understanding octal numbers and their properties is
+essential for various fields of study, and it is a crucial component of digital literacy in the modern world.
+
+## References
+
+- [Octal number - Wikipedia][octal_number_wikipedia]
+- [James Joseph Sylvester - Wikipedia][james_joseph_sylvester_wikipedia]
+
+---
+
+{/* Internal Links */}
+[binary_number_what_is_wiki]: ./number-system/binary-number "What is Binary Number"
+
+{/* External Links */}
+[octal_number_wikipedia]: https://en.wikipedia.org/wiki/Octal
+[james_joseph_sylvester_wikipedia]: https://en.wikipedia.org/wiki/James_Joseph_Sylvester

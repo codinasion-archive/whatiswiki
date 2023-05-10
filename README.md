@@ -1,38 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="public/logo-transparent.png" width="100" />
 
-First, run the development server:
+<h1><b>What is Wiki</b></h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<h6>An Open Source platform dedicated to answering "what is" questions related to technology, software, programming, and computer science.</h6>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![License](https://img.shields.io/github/license/codinasion/whatiswiki)](https://github.com/codinasion/whatiswiki/blob/master/LICENSE.md "MIT License") [![Github Repo Size](https://img.shields.io/github/repo-size/codinasion/whatiswiki "Repo Size")](https://github.com/codinasion/whatiswiki) [![Github Contributors](https://img.shields.io/github/contributors/codinasion/whatiswiki "Contributors")](https://github.com/codinasion/whatiswiki/graphs/contributors) [![Github Last Commit](https://img.shields.io/github/last-commit/codinasion/whatiswiki "Last Commit")](https://github.com/codinasion/whatiswiki/graphs/commit-activity)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<a href="https://vercel.com/?utm_source=codinasion&utm_campaign=oss" target="_blank">
+  <img src="https://raw.githubusercontent.com/codinasion/codinasion/master/public/powered-by-vercel.svg" alt="Powered By Vercel" width="170">
+</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/.github/master/assets/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+If you're looking for a way to contribute, you can scan through our existing issues for something to work on.
+We want to make contributing to this project as easy and transparent as possible, and we are grateful to the community for contributing bug fixes and improvements. Read our [Contributing Guide](CONTRIBUTING.md) how you can take part in improving hello-world.
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/.github/master/assets/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Join us in discussions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing, join us in the [discussions](https://github.com/orgs/codinasion/discussions).
 
-## Deploy on Vercel
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/.github/master/assets/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<table>
+  <tr>
+    <td>
+    <img align="left" src="https://raw.githubusercontent.com/codinasion/.github/master/assets/octocat.png" width="190">
+    <h3>Thanks for contributing :purple_heart:</h3>
+    <ul>
+      <li>Thanks for all your contributions and efforts</li>
+      <li>We thank you being part of our :sparkles: commUnity :sparkles: !</li>
+    </ul>
+    <img width="900" height="0">
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/.github/master/assets/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
+
+<br/>
+
+<p align="center">
+Made with 💖 by Codinasion
+</p>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codinasion/.github/master/assets/rainbow-hr.png" alt="rainbow hr" width="100%" height="70%">
+</div>
+
+[1]: https://img.shields.io/github/license/codinasion/whatiswiki
+[2]: https://github.com/codinasion/whatiswiki/blob/master/LICENSE.md "License"
+[3]: https://img.shields.io/github/repo-size/codinasion/whatiswiki "Repo Size"
+[4]: https://github.com/codinasion/whatiswiki
+[5]: https://img.shields.io/github/contributors/codinasion/whatiswiki "Contributors"
+[6]: https://github.com/codinasion/whatiswiki/graphs/contributors
+[7]: https://img.shields.io/github/last-commit/codinasion/whatiswiki "Last Commit"
+[8]: https://github.com/codinasion/whatiswiki/graphs/commit-activity
+[9]: ./CONTRIBUTING.md "Contributing Guide"
+[10]: https://github.com/codinasion/whatiswiki/discussions "Discussions"
