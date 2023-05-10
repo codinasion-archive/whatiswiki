@@ -3,11 +3,13 @@ import Link from "@/components/Link";
 
 import SponsorImage from "@/public/sponsor.png";
 
+import { SiteMetadata } from "@/data";
+
 export default function Sponsor() {
   return (
     <>
       <Link
-        href="https://github.com/sponsors/harshraj8843?frequency=one-time"
+        href={SiteMetadata.sponsor_url}
         externalIcon={false}
         className="mt-1 p-[2px] rounded-lg border border-transparent bg-origin-border bg-gradient-to-r from-red-500 to-blue-500"
       >
