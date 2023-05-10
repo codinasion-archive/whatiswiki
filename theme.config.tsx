@@ -58,14 +58,14 @@ const config: DocsThemeConfig = {
         <b>What is Wiki</b>
       </span>
       <span
-      style={{
-        color: "blue",
-        marginLeft: "7px",
-        paddingLeft: "3px",
-        paddingRight: "3px",
-        backgroundColor: "lightgreen",
-        borderRadius: "5px",
-      }}
+        style={{
+          color: "blue",
+          marginLeft: "7px",
+          paddingLeft: "3px",
+          paddingRight: "3px",
+          backgroundColor: "lightgreen",
+          borderRadius: "5px",
+        }}
       >
         <b>Beta</b>
       </span>
