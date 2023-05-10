@@ -1,8 +1,11 @@
 import Image from "@/components/Image";
+import Link from "@/components/Link";
 
 import { SiteMetadata } from "@/data";
 
 import Logo from "@/public/logo.png";
+import Vercel from "@/public/vercel.svg";
+import Nextra from "@/public/nextra.svg";
 
 <div className="text-center mb-4">
 
@@ -26,6 +29,25 @@ As a community-driven project, anyone can contribute to the platform by sharing 
 The project strives to maintain a high level of accuracy and up-to-date information. To ensure accuracy, users are encouraged
 to fact-check and verify information.
 
-The "What is Wiki" project is a valuable resource for the tech community, providing a platform for individuals to share their
+The `"What is Wiki"{:js}` project is a valuable resource for the tech community, providing a platform for individuals to share their
 knowledge and contribute to the open-source movement. With the collective effort of the community, the project continues to
 evolve and expand, providing a reliable and comprehensive resource for everyone.
+
+---
+
+#### Powered By
+
+<div className="flex flex-wrap justify-left gap-4 mt-4">
+
+<Link
+  href="https://vercel.com/?utm_source=codinasion&utm_campaign=oss"
+  externalIcon={false}
+>
+  <Image src={Vercel} alt="Vercel" width={80} />
+</Link>
+
+<Link href="https://nextra.site/" externalIcon={false}>
+  <Image src={Nextra} alt="Nextra" width={80} />
+</Link>
+
+</div>

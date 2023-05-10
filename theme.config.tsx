@@ -57,6 +57,18 @@ const config: DocsThemeConfig = {
       <span>
         <b>What is Wiki</b>
       </span>
+      <span
+      style={{
+        color: "blue",
+        marginLeft: "7px",
+        paddingLeft: "3px",
+        paddingRight: "3px",
+        backgroundColor: "lightgreen",
+        borderRadius: "5px",
+      }}
+      >
+        <b>Beta</b>
+      </span>
     </>
   ),
   logoLink: "/",
