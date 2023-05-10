@@ -10,6 +10,8 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 import Comment from "@/components/Comment";
 import ScrollToTop from "@/components/ScrollToTop";
 import Sponsor from "@/components/Sponsor";
+import Twitter from "@/components/Social/Twitter";
+import DarkmodeToggle from "./components/DarkmodeToggle";
 
 import Favicon from "@/public/favicon/favicon.ico";
 import AppleTouchIcon from "@/public/favicon/apple-touch-icon.png";
@@ -29,10 +31,18 @@ const config: DocsThemeConfig = {
   banner: {
     dismissible: true,
     key: "welcome",
-    text: "Welcome to What is Wiki !!!",
+    text: "Welcome to What is Wiki 📑",
   },
 
   // Navbar
+  navbar: {
+    extraContent: (
+      <>
+        <Twitter />
+        <DarkmodeToggle />
+      </>
+    ),
+  },
   logo: (
     <>
       <Image
@@ -54,7 +64,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/codinasion/whatiswiki",
   },
   chat: {
-    link: "https://discord.gg/PzNmxsrXTX",
+    link: SiteMetadata.discord_url,
   },
   search: {
     placeholder: "What is ...",
@@ -74,14 +84,22 @@ const config: DocsThemeConfig = {
     const { frontMatter } = useConfig();
 
     const defaultTitle = frontMatter.overrideTitle || site_title;
+    const defaultDescription =
+      frontMatter.overrideDescription || site_description;
 
     if (asPath !== "/") {
       return {
         titleTemplate: "What is %s",
         defaultTitle,
-        description: frontMatter.description,
+        description: defaultDescription,
       };
     }
+
+    return {
+      titleTemplate: "%s",
+      defaultTitle,
+      description: defaultDescription,
+    };
   },
   head: () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
