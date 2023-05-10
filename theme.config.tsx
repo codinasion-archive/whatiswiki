@@ -158,6 +158,13 @@ const config: DocsThemeConfig = {
 
   gitTimestamp({ timestamp }) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
+    const { asPath } = useRouter();
+
+    if (asPath === "/") {
+      return null;
+    }
+
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [dateString, setDateString] = useState(timestamp.toISOString());
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
